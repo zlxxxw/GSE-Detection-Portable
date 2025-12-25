@@ -1,0 +1,15 @@
+# 机场GSE检测模型 - 最小依赖
+# Airport GSE Detection - Minimal Dependencies
+
+# 核心依赖
+torch>=2.0.0
+torchvision>=0.15.0
+ultralytics>=8.0.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+pyyaml>=6.0
+
+# 可选：CUDA支持
+# 如需GPU加速，请根据您的CUDA版本安装对应的PyTorch
+# CUDA 11.8: pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
+# CUDA 12.1: pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
